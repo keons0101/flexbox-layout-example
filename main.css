@@ -87,27 +87,74 @@ main {
     margin: 0 0 8px 24px;
 }
 
-.layout {
+ /* -----Styles for contact page----- */
+.layout--contact {
     display: flex;
     flex-wrap: wrap;
     height: 80vh;
     gap: 8px;
 }
 
-.layout__box {
+.layout__box-contact {
     flex: 1 0 45%;
     height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: darkcyan;
-    
 }
 
-
-.layout__box--3 {
+.layout__box--3-contact {
     flex-basis: 95%;
 }
+
+ /* -----Styles for service page----- */
+.layout-services {
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    gap: 8px;
+}
+
+.layout-services__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkcyan;
+}
+
+.services__box-aside {
+    padding-top: 16px;
+    flex-direction: column;
+    justify-content: start;
+    flex: 1;
+}
+
+.aside__nav-list {
+    flex-direction: column;
+    display: flex;
+    gap: 8px;
+}
+
+.services__box-section {
+    display: flex;
+    flex: 6;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 16px;
+    justify-content: flex-start;
+}
+
+.section__box {
+    width: calc(25% - 16px);
+    height: 150px;
+    background-color: lightsteelblue;
+    border: 1px solid #8aa0b6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* ---------------------------FOOTER STYLES--------------------------- */
 .footer__nav-item a:link,
 .footer__nav-item a:visited {
