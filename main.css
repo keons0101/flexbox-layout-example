@@ -4,6 +4,7 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 a:link, 
@@ -54,14 +55,59 @@ header {
 
 /* ---------------------------MAIN STYLES--------------------------- */
 main {
-    padding-top: 90px;
-    height: 90vh;
+    margin-top: 90px;
+    padding: 8px;
 }
-section {
+
+.main__section {
     scroll-margin-top: 90px;
+    padding: 8px 16px;
+}
+
+.main__section h1 {
+    margin-bottom: 20px;
+}
+
+.main__section p {
+    text-align: justify;
+    margin-bottom: 16px;
+}
+
+.main__image {
+    height: 250px;
+}
+
+.main__image--left {
+    float: left;
+    margin: 0 24px 8px 0;
+}
+
+.main__image--right {
+    float: right;
+    margin: 0 0 8px 24px;
+}
+
+.layout {
+    display: flex;
+    flex-wrap: wrap;
+    height: 80vh;
+    gap: 8px;
+}
+
+.layout__box {
+    flex: 1 0 45%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkcyan;
+    
 }
 
 
+.layout__box--3 {
+    flex-basis: 95%;
+}
 /* ---------------------------FOOTER STYLES--------------------------- */
 .footer__nav-item a:link,
 .footer__nav-item a:visited {
@@ -74,6 +120,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 8px;
 }
 
 .footer__nav {
