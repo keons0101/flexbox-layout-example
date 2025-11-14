@@ -95,7 +95,7 @@ main {
     gap: 8px;
 }
 
-.layout__box-contact {
+.layout__box--contact {
     flex: 1 0 45%;
     height: 50%;
     display: flex;
